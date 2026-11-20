@@ -1,6 +1,7 @@
 # Changelog
 
-## Planned 0.3.0
+## 0.3.3
 
-- MSCore-compatible packaging and dependency metadata.
-- Native migration verification pending; not released.
+- MSCore-backed release preparation.
+- Existing gameplay preserved and user-tested.
+- Manager-compatible ZIP and checksummed manifest prepared.
