@@ -1,9 +1,10 @@
 # Changelog
 
-## 0.3.5 performance test (pre-release)
+## 0.3.5
 
 - Cache and revalidate the WidgetSubsystem identity to avoid repeated global discovery.
-- Native/performance test pending; stable channel unchanged.
+- User reports smooth operation in the isolated three-mod test.
+- Promoted to stable; runtime files are identical to the performance-test build.
 
 ## 0.3.4
 

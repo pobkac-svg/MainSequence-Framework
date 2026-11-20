@@ -20,7 +20,7 @@ Check `ue4ss/UE4SS.log` and `Mods/MSCore/selfcheck.log`. Close the game before M
 
 ## Release status
 
-Version 0.3.4: gameplay and Manager testing confirmed by the user on 20 November 2026. Release downloads include the runtime ZIP and its checksummed MSCore manifest. Tested with the existing UE4SS 4.0.0 installation and the current installed game update; other builds are not verified.
+Version 0.3.5: gameplay and Manager testing confirmed by the user on 20 November 2026. Release downloads include the runtime ZIP and its checksummed MSCore manifest. Tested with the existing UE4SS 4.0.0 installation and the current installed game update; other builds are not verified.
 
 ## Credits and terms
 
@@ -30,6 +30,6 @@ Developed with OpenAI Codex. Uses MSCore by xxalex3xx97 and UE4SS as external de
 
 Release 0.3.4 fixes matching `requires` fields in the download manifest and installed `mscore.mod`. Gameplay is unchanged. Install/update this release before feature addons.
 
-## Optional periodic-stutter test
+## Performance update
 
-Stable Latest remains 0.3.4. An experimental [performance-test release](https://github.com/pobkac-svg/MainSequence-Framework/releases/tag/v0.3.5-performance-test) is available for a reported stutter. Install both Framework 0.3.5 and Belt Meter 0.3.2 test ZIPs manually as described in the release notes. Improvement on the affected PC is not verified yet.
+Release 0.3.5: Cache and revalidate the WidgetSubsystem identity instead of repeatedly searching all objects during UI checks. Tested by the user with only MSCore, Framework and Belt Meter enabled, with no observed slowdowns. The originally affected friend PC has not retested.
