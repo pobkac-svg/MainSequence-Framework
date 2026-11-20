@@ -29,3 +29,7 @@ Developed with OpenAI Codex. Uses MSCore by xxalex3xx97 and UE4SS as external de
 ## Manager dependency metadata correction
 
 Release 0.3.4 fixes matching `requires` fields in the download manifest and installed `mscore.mod`. Gameplay is unchanged. Install/update this release before feature addons.
+
+## Optional periodic-stutter test
+
+Stable Latest remains 0.3.4. An experimental [performance-test release](https://github.com/pobkac-svg/MainSequence-Framework/releases/tag/v0.3.5-performance-test) is available for a reported stutter. Install both Framework 0.3.5 and Belt Meter 0.3.2 test ZIPs manually as described in the release notes. Improvement on the affected PC is not verified yet.
