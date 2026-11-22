@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.6 ? 2026-11-22
+
+- Avoid native TArray callback iteration in shared array reads; guard indexed reads against size changes.
+- Honour Framework addon overrides, explicit mods.txt disable entries and managed-package enabled.txt markers before loading addon code.
+- Add validated game inventory-total snapshots for Storage Counts.
+
 ## 0.3.5
 
 - Cache and revalidate the WidgetSubsystem identity to avoid repeated global discovery.
